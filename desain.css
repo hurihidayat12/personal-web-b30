@@ -1,0 +1,87 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.widget-form{     
+    display: flex;
+    justify-content: center;
+   
+}
+.form-input h1{
+    margin-top: 16px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #002366;
+    font-size:30px;
+        
+}
+
+.form-input {
+    background-color: goldenrod;
+    border-radius: 10px;
+    width: 30%;
+    height: 90vh;
+    padding: 5px 30px;
+    margin-top: 20px;
+}
+
+.form-input .input-go{
+  
+    width: 80%; 
+    height: 24px;
+    border: 2px solid #012fc5;
+    font-size: 16px;
+    font-family: OpenSans-Light;
+    background: transparent;
+    border-radius: 4px;
+    align-items: center;
+    padding: 4.5px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.input-subject{
+    margin: 0% 0px 9px 50px;
+    width: 50%; 
+    height: 30px;
+    border: 2px solid #012fc5;
+    font-size: 16px;
+    font-family: OpenSans-Light;
+    background: transparent;
+    border-radius: 4px;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.input-text{
+    margin: 0% 0px 9px 50px;
+    width: 80%; 
+    height: 50px;
+    border: 2px solid #012fc5;
+    font-size: 16px;
+    font-family: OpenSans-Light;
+    background: transparent;
+    border-radius: 4px;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.btn-go{
+    margin: 10px 0px 9px 50px;
+    width: 40%; 
+    height: 30px;
+    border: 2px solid #012fc5;
+    font-size: 16px;
+    font-family: OpenSans-Light;
+    background: transparent;
+    border-radius: 15px;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+

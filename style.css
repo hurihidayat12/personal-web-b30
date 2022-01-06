@@ -1,0 +1,386 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:  Helvetica;
+}
+ 
+body{
+     background: linear-gradient(rgb(189, 141, 19), rgb(189, 162, 87));     
+    /* background-image: url("image/da.jpg" ); */
+    background-size: cover;
+   /* background-color: rgb(218, 217, 216);*/
+}
+
+nav {
+    font-size: 17px;
+    background-color:rgba(184, 135, 11, 0.863);
+    display: flex;
+    height: 6vh;
+    padding: 10px;
+ 
+}
+
+nav img {
+    width: 55px;
+    margin-top: 4px;
+    cursor: pointer; 
+    margin-right: 20px;
+
+}
+
+nav ul {
+    display: flex;  
+    align-items: center;
+}
+
+nav ul li {
+    color:darkred
+}
+
+nav a{
+    color: #581d1d;
+}
+
+nav .left{
+    /*background-color: rgb(134, 134, 134);*/
+    flex: 50%;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav .left li {
+    display: inline;   
+}
+
+nav .left ul li a{
+    text-decoration: none;
+    padding: 16px;
+    margin: 10px;
+}
+
+
+nav .left li:hover {
+    padding: 15px 5px;
+    color: rgb(255, 255, 255); 
+    border: 3px solid rgb(241, 204, 110); 
+    border-radius: 5px;
+}
+
+nav .right a:hover {
+    color: rgb(236, 194, 87); 
+    border: 2px solid rgb(241, 204, 110); 
+    border-radius: 5px;
+}
+
+ 
+
+nav .right{
+    /*background-color: rgb(141, 141, 141);*/
+    flex: 50%;
+    display: flex;
+    padding-right: 30px;
+    justify-content: flex-end;
+    align-items: center;   
+}
+
+.right a {
+    text-decoration: none;
+    padding: 8px 10px; 
+    border: 2px solid #5a1b1b; 
+    border-radius: 5px;
+}
+
+.bagian-right h1{
+    color: #581d1d;
+    font-size: 48px;
+    margin-top: 30px;
+    
+}
+
+
+.container{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .body-satu{
+    display: flex;
+    width: 80%;
+}
+
+.body-satu .bagian-left{
+    flex: 40%;
+    /*background-color:rgb(216, 216, 216);*/
+    border: 5px solid rgb(245, 189, 74);
+    text-align: center;
+    height:85%;
+    border-radius: 7px;
+   /* background-image: url(image/lo.jpg);   */  
+    background-size: cover;     
+
+}
+
+.bagian-left img{
+    padding: 15px;
+    border-radius: 30px;
+    width: 90%;
+    height: 250px;
+}
+
+.bagian-left ,h1 ,h3{
+    color: #5a1b1b;
+    ;
+}
+
+.bagian-left  {
+    
+    padding: 5px 8px;
+    margin-top: 10px;
+}  
+
+.bagian-left p{
+    color: #750909;
+    padding: 11px;
+}
+
+.bagian-left ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px 5px 20px;
+    margin-left: 16px;  
+    color: #750909;  
+}
+
+
+.body-satu .bagian-right{
+    flex: 60%;
+   /* background-color:rgb(167, 167, 167);*/
+    padding: 30px;
+    color:#541212;
+    font-size: 1em;
+    letter-spacing: 1,5px;
+}
+
+.body-right .isi-kiri{
+    color:#541212;
+}
+
+.bagian-right .isi-kiri{
+    display: flex;
+}
+
+.bagian-right p{
+    padding-top: 18px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.bagian-right h5{
+    padding-top: 10px;
+}
+
+.bagian-left table{ 
+    background-color:#e6ba6398;
+    height: 80px; 
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 2px solid darkgoldenrod;
+    width: 100%;
+}
+.bagian-left table td{
+    color: #5a1b1b;
+}
+
+.isi-kiri {
+    flex: 1;
+    margin-top: 18px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin: auto 18px;
+}
+
+.isi-kiri img{
+    width: 68px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.social-media {
+    padding-top: 40px;
+    margin-top: 18px;
+    padding-top: 18px;
+    padding-right: 15px;
+}
+
+.social-media img{
+    width:50px;
+    padding: 13px 7px;
+    cursor: pointer;
+}
+
+.bagian-left th{
+    font-size: 17px;
+}
+
+.bagian-left td{
+    font-size:15px;
+}
+
+/*
+--------style contact-------
+*/
+
+.body-contact{
+    background-image: url(image/da.jpg);
+    background-size: cover;
+    height: 91vh; 
+}
+
+.widget-form{     
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.form-input h1{
+    margin-top: 10px;
+    margin-bottom:8px; 
+    text-align:center; 
+    color: #8b2d2d;
+    
+}
+
+.form-input {
+    background-color:rgba(184, 135, 11, 0.288);
+    border: 6px solid  #A13333;
+  /*  background-image: url(image/bg1.jpg); */
+    border-radius: 10px ;
+    width: 30%;
+    height: 80vh;
+    padding: 5px 30px;
+    margin-top: 20px;
+    font-family: OpenSans-Light;
+}
+
+.form-input .input-go{
+    width: 80%; 
+    height: 24px;
+    border: 3.8px solid #A13333;
+    font-size: 16px;
+    background: transparent;
+    border-radius: 4px;
+    align-items: center;
+    padding: 4.5px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.input-subject{
+    width: 50%; 
+    height: 33px;
+    border: 3.8px solid #A13333;
+    font-size: 16px;
+    background: transparent;
+    border-radius: 4px;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    color: #A13333  ;
+}
+
+.body-skill{
+    margin-left: 30px;
+    margin-bottom: 11px;
+}
+
+.skill-full{
+    color: #5a1b1b;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.input-text{
+    margin-left: 30px;
+    width: 80%; 
+    height: 50px;
+    border: 3.8px solid #A13333;
+    font-size: 16px;
+    background: transparent;
+    border-radius: 4px;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.btn-go{
+    margin-left: 100px;
+    width: 40%; 
+    height: 35px;
+    border: 3.8px solid #A13333;
+    font-size: 16px;
+    font-family: OpenSans-Light;
+    background-color:#b44d4d28;
+    border-radius: 15px;
+    align-items: center;
+    padding: 5px;
+    resize: none;
+    color: #5a1b1b;
+    font-weight: bold;
+}
+
+.btn-go[type=button]:hover{
+    background: darkgoldenrod;
+    color:#e0e0e0
+}
+
+.label-style{
+    color: #A13333;
+    font-weight: bold;
+}
+
+::placeholder {
+    color: #A13333;
+  }
+
+
+/*
+
+.satu {
+    flex: 1;
+    padding-top: 10px;
+
+}
+
+.dua {
+    flex: 1;
+    padding-top: 10px;
+}
+
+.tiga {
+    flex: 1;
+    padding-top: 10px;
+}
+
+.satu img {
+    width: 54px;
+    padding-top: 10px;
+}
+
+.dua img {
+    width: 54px;
+    padding-top: 10px;
+}
+
+.tiga img {
+    width: 54px;
+    padding-top: 10px;
+}
+
+*/
+
