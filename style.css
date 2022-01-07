@@ -5,10 +5,10 @@
 }
  
 body{
-    background: linear-gradient(rgb(189, 141, 19), rgb(199, 185, 143));     
-    /* background-image: url("image/da.jpg" ); */
+    /*background: linear-gradient(rgb(189, 141, 19), rgb(199, 185, 143));     
+    background-image: url("image/da.jpg" ); */
     background-size: cover;
-   /* background-color: rgb(218, 217, 216);*/
+    background-color: rgb(209, 178, 147);
 }
 
 nav {
@@ -109,7 +109,7 @@ nav .right{
 .body-satu .bagian-left{
     flex: 40%;
     /*background-color:rgb(216, 216, 216);*/
-    border: 5px solid rgb(245, 189, 74);
+    border: 5px solid rgb(207, 166, 62);
     text-align: center;
     height:85%;
     border-radius: 7px;
@@ -341,6 +341,12 @@ nav .right{
 
 ::placeholder {
     color: #A13333;
+  }
+
+  .blog-img{
+    background-color: rgb(223, 223, 223);
+    background-size: cover;
+    height: 120%;
   }
   
   /* Blog Form */
